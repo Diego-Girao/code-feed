@@ -1,10 +1,10 @@
 .header {
 	background: linear-gradient(
 		0deg,
-		var(--gray-900),
-		var(--gray-800) /* var(--gray-900) */
+		var(--gray-800),
+		var(--gray-900) /* var(--gray-900) */
 	);
-	box-shadow: 0 -10px 35px #3bb74b;
+	/* box-shadow: 0 -10px 35px #3bb74b; */
 	display: flex;
 	justify-content: center;
 	padding: 1.25rem 0;
