@@ -11,7 +11,7 @@ export function Post() {
 					/>
 					<div className={styles.authorInfo}>
 						<strong>Joe Doe</strong>
-						<span>Web Developer</span>
+						<span>Dev Front-end</span>
 					</div>
 				</div>
 
@@ -21,7 +21,7 @@ export function Post() {
 			</header>
 
 			<div className={styles.content}>
-				<p>Faaala galera 👋</p>
+				<p>Faaala 👋</p>
 				<p>
 					Acabei de subir mais um projeto no meu repo. É um projeto que fiz
 					usando o CTD. O nome do projeto é BankApp 🚀
