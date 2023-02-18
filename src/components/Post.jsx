@@ -27,10 +27,10 @@ export function Post() {
 					usando o CTD. O nome do projeto é BankApp 🚀
 				</p>
 				<p>
-					<a href="">👉 joe.dev/BankApp</a>
+					👉 <a href="">joe.dev/BankApp</a>
 				</p>
 				<p>
-					<a href=""></a>#novoprojeto #code #ctd
+					<a href="">#novoprojeto</a> <a href="">#code</a> <a href="">#ctd</a>
 				</p>
 			</div>
 		</article>
