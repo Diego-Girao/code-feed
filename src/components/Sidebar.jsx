@@ -14,8 +14,8 @@ export function Sidebar() {
 					className={styles.avatar}
 					src="https://github.com/diego-girao.png"
 				/>
-				<strong>Jane Doe</strong>
-				<span>UX/UI Design</span>
+				<strong>Joe Doe</strong>
+				<span>Dev Front-end</span>
 			</div>
 
 			<footer>
