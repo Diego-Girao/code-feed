@@ -2,7 +2,8 @@ import { Avatar } from "./Avatar"
 import { Comment } from "./Comment"
 import styles from "./Post.module.css"
 
-export function Post() {
+export function Post(props) {
+	console.log(props)
 	return (
 		<article className={styles.post}>
 			<header>
@@ -19,19 +20,7 @@ export function Post() {
 				</time>
 			</header>
 
-			<div className={styles.content}>
-				<p>Faaala 👋</p>
-				<p>
-					Acabei de subir mais um projeto no meu repo. É um projeto que fiz
-					usando o CTD. O nome do projeto é BankApp 🚀
-				</p>
-				<p>
-					👉 <a href="">joe.dev/BankApp</a>
-				</p>
-				<p>
-					<a href="">#novoprojeto</a> <a href="">#code</a> <a href="">#ctd</a>
-				</p>
-			</div>
+			<div className={styles.content}></div>
 
 			<form className={styles.commentForm}>
 				<strong>Deixe um feedback</strong>
