@@ -28,7 +28,7 @@ const posts = [
 	{
 		id: 2,
 		author: {
-			avatarUrl: "https://github.com/pedro-marins.png",
+			avatarUrl: "https://github.com/pedromarins.png",
 			name: "Pedro Marins",
 			role: "Mentor @ConquisteSuaVaga",
 		},
@@ -47,22 +47,25 @@ const posts = [
 
 export function App() {
 	return (
-		<div>
-			<Header />
-			<div className={styles.wrapper}>
-				<Sidebar />
-				<main>
-					{posts.map((post) => {
-						return (
-							<Post
-								author={post.author}
-								content={post.content}
-								publishedAt={post.publishedAt}
-							/>
-						)
-					})}
-				</main>
+		<>
+			<div>
+				<Header />
+				<div className={styles.wrapper}>
+					<Sidebar />
+					<main>
+						{posts.map((post) => {
+							return (
+								<Post
+									key={post.id}
+									author={post.author}
+									content={post.content}
+									publishedAt={post.publishedAt}
+								/>
+							)
+						})}
+					</main>
+				</div>
 			</div>
-		</div>
+		</>
 	)
 }
