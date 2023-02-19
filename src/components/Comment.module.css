@@ -1,2 +1,12 @@
 .comment {
+	margin-top: 1.5rem;
+	display: flex;
+	gap: 1rem;
+}
+
+/* O (>) Aplicará o estilo apenas no img do comment, sem alterar outros com a tag img */
+.comment > img {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 8px;
 }
