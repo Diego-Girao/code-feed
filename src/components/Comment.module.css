@@ -14,3 +14,15 @@
 .commentBox {
 	flex: 1;
 }
+
+.commentContent {
+	background: var(--gray-700);
+	border-radius: 8px;
+	padding: 1rem;
+}
+
+.commentContent header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
