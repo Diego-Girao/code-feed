@@ -65,8 +65,7 @@ Este foi o terceiro projeto da mentoria **Conquiste Sua Vaga** , foi inspirado n
 
 ### Stacks utilizadas
 
-| ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=Plastic&logo=html5&logoColor=white) | ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=Plastic&logo=css3&logoColor=white) | ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=Plastic=javascript&logoColor=%23F7DF1E) | ![React](https://img.shields.io/badge/react-%2320232a.svg?style=Plastic&logo=react&logoColor=%2361DAFB) | ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=Plastic&logo=vite&logoColor=white) | ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=Plastic&logo=git&logoColor=white) | ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=Plastic&logo=netlify&logoColor=#00C7B7) |
-| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------: |
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=Plastic&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=Plastic&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=Plastic=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=Plastic&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=Plastic&logo=vite&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=Plastic&logo=git&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=Plastic&logo=netlify&logoColor=#00C7B7)
 
 - [x] HTML5 Semântico
 - [x] CSS Module | CSS Flexbox | CSS Grid
@@ -91,7 +90,7 @@ Algumas melhorias já estão mapeadas para próxima release, são as seguintes:
 
 ## Author - Diego Girão
 
-[![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/diego-girao) [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/diego-girao/)
+[![Github](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white)](https://github.com/diego-girao) [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=plastic&logo=linkedin&logoColor=white)](https://linkedin.com/in/diego-girao/)
 
 ## Agradecimentos
 
