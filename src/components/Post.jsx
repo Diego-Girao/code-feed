@@ -34,12 +34,19 @@ export function Post({ author, publishedAt, content }) {
 		setNewCommentText(event.target.value)
 	}
 
+	function handleNewCommentInvalid() {
+		event.target.setCustomValidity("")
+		event.target.setCustomValidity("Este campo é orbigatório !")
+	}
+
 	function deleteComment(commentToDelete) {
 		const commentsWhitoutDeletedOne = comments.filter((comment) => {
 			return comment !== commentToDelete
 		})
 		setComments(commentsWhitoutDeletedOne)
 	}
+
+	const isNewCommentEmpty = newCommentText.length === 0
 
 	return (
 		<article className={styles.post}>
@@ -81,11 +88,14 @@ export function Post({ author, publishedAt, content }) {
 					name="comment"
 					value={newCommentText}
 					onChange={handleNewCommentChange}
+					onInvalid={handleNewCommentInvalid}
 					required
 				/>
 
 				<footer>
-					<button type="submit">Publicar</button>
+					<button type="submit" disabled={isNewCommentEmpty}>
+						Publicar
+					</button>
 				</footer>
 			</form>
 
