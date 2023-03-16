@@ -2,7 +2,11 @@ import { ThumbsUp, Trash } from "phosphor-react"
 import { Avatar } from "./Avatar"
 import styles from "./Comment.module.css"
 
-export function Comment({ content }) {
+export function Comment({ content, deleteComment }) {
+	function handleDeleteComment() {
+		deleteComment(content)
+	}
+
 	return (
 		<div className={styles.comment}>
 			<Avatar
@@ -22,7 +26,7 @@ export function Comment({ content }) {
 								Há 2h atrás
 							</time>
 						</div>
-						<button title="Apagar comentário">
+						<button onClick={handleDeleteComment} title="Apagar comentário">
 							<Trash size={20} />
 						</button>
 					</header>
