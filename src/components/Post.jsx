@@ -7,7 +7,8 @@ import { Comment } from "./Comment"
 import styles from "./Post.module.css"
 
 export function Post({ author, publishedAt, content }) {
-	const [comments, setComments] = useState([1, 2])
+	const [comments, setComments] = useState([])
+	const [newCommentText, setNewCommentText] = useState("")
 
 	const publishedDateFormatted = format(
 		publishedAt,
@@ -25,8 +26,27 @@ export function Post({ author, publishedAt, content }) {
 	function handleCreateNewComment() {
 		event.preventDefault()
 
-		setComments([...comments, comments.length + 1])
+		setComments([...comments, newCommentText])
+		setNewCommentText("")
 	}
+
+	function handleNewCommentChange() {
+		setNewCommentText(event.target.value)
+	}
+
+	function handleNewCommentInvalid() {
+		event.target.setCustomValidity("")
+		event.target.setCustomValidity("Este campo é orbigatório !")
+	}
+
+	function deleteComment(commentToDelete) {
+		const commentsWhitoutDeletedOne = comments.filter((comment) => {
+			return comment !== commentToDelete
+		})
+		setComments(commentsWhitoutDeletedOne)
+	}
+
+	const isNewCommentEmpty = newCommentText.length === 0
 
 	return (
 		<article className={styles.post}>
@@ -63,16 +83,31 @@ export function Post({ author, publishedAt, content }) {
 			<form onSubmit={handleCreateNewComment} className={styles.commentForm}>
 				<strong>Deixe um feedback</strong>
 
-				<textarea placeholder="Deixe um comentário" />
+				<textarea
+					placeholder="Deixe um comentário"
+					name="comment"
+					value={newCommentText}
+					onChange={handleNewCommentChange}
+					onInvalid={handleNewCommentInvalid}
+					required
+				/>
 
 				<footer>
-					<button type="submit">Publicar</button>
+					<button type="submit" disabled={isNewCommentEmpty}>
+						Publicar
+					</button>
 				</footer>
 			</form>
 
 			<div className={styles.commentList}>
 				{comments.map((comment) => {
-					return <Comment />
+					return (
+						<Comment
+							key={comment}
+							content={comment}
+							deleteComment={deleteComment}
+						/>
+					)
 				})}
 			</div>
 		</article>
