@@ -1,5 +1,5 @@
-import logoCode from "../assets/logo_code.svg"
-import styles from "./Header.module.css"
+import logoCode from "/src/assets/logo_code.svg"
+import styles from "../header/Header.module.css"
 
 export function Header() {
 	return (
