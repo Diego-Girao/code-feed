@@ -81,11 +81,15 @@ Este foi o terceiro projeto da mentoria **Conquiste Sua Vaga** , foi inspirado n
 
 - Uma grande melhoria na gestão desse projeto ao utilizar o método pomodoro
 
+- Refatorando e usando useState, props e o conceito de imutabilidade, além de fixar melhor o conceito de programação declarativa.
+
+- Organizar os componentes e seus estilos nas suas respectivas pastas.
+
 ### Desenvolvimento Contínuo
 
 Algumas melhorias já estão mapeadas para próxima release, são as seguintes:
 
-- [ ] Implementar as funções de alguns componentes que ficaram estáticos
+- [x] Implementar as funções de alguns componentes que ficaram estáticos
 - [ ] Utilizar o Styled Components - Em análise
 
 ## Author - Diego Girão
@@ -94,4 +98,4 @@ Algumas melhorias já estão mapeadas para próxima release, são as seguintes:
 
 ## Agradecimentos
 
-Meu muito obrigado aos mentores **Pedro Marins e Henrique Andrade**, assim como os tutores e meus colegas da turma 23c e da comunidade **Code** no geral, vocês são excelentes e estão sempre dispostos a ajudar, parabéns a todos os envolvidos.
+Meu muito obrigado aos mentores **Pedro Marins e Henrique Andrade**, assim como os tutores e meus colegas da turma 23C e da comunidade **Code** no geral, vocês são excelentes e estão sempre dispostos a ajudar, parabéns a todos os envolvidos.
